@@ -10,7 +10,19 @@
   #                                               #
   #===============================================#
 
-
+  
+# Using R 3.4.1 and RStudio 1.0.153
+#
+# Package versions:
+# 
+# data.table 1.10.4
+# stringr 1.2.0
+# igraph 1.1.2
+# sna 2.4 
+# network 1.13.0
+# ggplot2 2.2.1
+# grid 3.4.1
+# reshape2 1.4.2
 
 
 ####  ------------------ DATA READ ------------------ ####
