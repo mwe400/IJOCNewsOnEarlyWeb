@@ -1,0 +1,45 @@
+
+Weber, M., Ognyanova, K., Kosterich, A. (2017) Imitation in the quest to survive: Lessons from news media on the early Web. International Journal of Communication.
+
+
+This article uses data from the Internet Archive (archive.org). The Internet Archive is a not–for–profit organization that aims to archive and preserve the Web. We used data from the Internet Archive’s 20th Century collection, which is the largest archive of webpages from 1996 to 2000. There is no coherent set of archived webpages available prior to 1996. To facilitate analysis, archived data were extracted in the Web Archive Transformation (WAT) metadata format. WAT is a metadata specification that captures key fields from the raw Web pages and allows for faster analysis and data extraction. Key fields include inbound hyperlinks, outbound hyperlinks, file size, keywords, descriptive text, and content type (HTML, images, video, etc.). The compressed records for the 20th Century collection are 7.2 TB. Data were sorted and extracted into tabular format using a customized data extraction tool and a high–performance computing cluster. 
+ 
+This study focused on mainstream news sites that existed during the early period of the Web. Our analysis was restricted to the online behavior of the top 25 newspapers in each year from 1996 through 2000 in terms of print circulation. Annual circulation data were collected from the Alliance for Audited Media. The cumulative list contained a total of 28 newspapers occupying a position among the top 25 at any time during that time period:
+
+Atlanta Journal Constitution
+Arizona Republic
+Chicago Sun Times
+Chicago Tribune
+Cleveland Plain Dealer
+Colorado Rocky Mountain News
+Dallas Morning News
+Denver Post
+Detroit Free Press
+Houston Chronicle
+Long Island Newsday
+Los Angeles Times
+Miami Herald
+Minneapolis Star Tribune
+New Jersey Star Ledger
+New York Daily News
+New York Post
+New York Times
+Orange County Register
+The Oregonian
+The Philadelphia Inquirer
+San Diego Union Tribune
+San Francisco Chronicle
+Tampa Bay Times
+USA Today
+Wall Street Journal
+Washington Post
+
+The extracted data includes all hyperlinks to and from the domains of the 28 legacy newspapers specified above (N = 3,524,364 records). The key properties of each hyperlink are its source, destination, weight, and timestamp. The source and destination are specific domains (e.g. “nyt.com”, “yahoo.com”). The weight is the total number of hyperlinks from any page in the source domain to any page in the destination domain. The timestamp shows the date of the crawl.
+
+In the Internet Archive data, there is a significant variance in the amount of crawling activity. The Atlanta Journal Constitution was crawled once in 1996, whereas the New York Times was crawled 257 days in 2000. Website domains were crawled an average of 4 days in 1996, and an average of 174 days in 2000. The low frequency of crawling activity in 1996 is due to the nascent nature of the Web at that time; the crawling activity is far more significant by 2000.  
+
+
+
+
+
+
